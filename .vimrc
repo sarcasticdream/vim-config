@@ -7,12 +7,18 @@ set background=dark
 :let g:NERDTreeWinSize=17
 set listchars=tab:>-
 set shiftwidth=4
-set softtabstop=4
-set tabstop=8
+set tabstop=4 softtabstop=4
 set expandtab
 filetype indent on
 set autoindent
-set number
+set smartindent
+set nu
+set noswapfile
+set nobackup
+set undodir=~/.vim/undodir
+set undofile
+set incsearch
+set nowrap
 inoremap " ""<left>
 inoremap ' ''<left>
 inoremap ( ()<left>
